@@ -1,0 +1,24 @@
+---#initialise repo/project
+npm init
+
+---#installing dependencies
+npm i express mongoose passport passport-jwt jsonwebtoken body-parser b
+cryptjs validator
+
+---#installing Dev dependency nodemon
+npm i -D nodemon
+
+---#start server
+load express, port, listener, homeroute (/)
+
+---#add scripts in package.json
+start server script - npm start
+nodemon script - npm run server
+
+---#add db config and connect to mondoDB
+add mongo key
+seperate config file
+connect to mongoDB using mongoose / MongoClient
+
+
+
