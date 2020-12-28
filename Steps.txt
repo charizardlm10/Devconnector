@@ -1,0 +1,41 @@
+---#initialise repo/project
+npm init
+
+---#installing dependencies
+npm i express mongoose passport passport-jwt jsonwebtoken body-parser b
+cryptjs validator
+
+---#installing Dev dependency nodemon
+npm i -D nodemon
+
+---#start server
+load express, port, listener, homeroute (/)
+
+---#add scripts in package.json
+start server script - npm start
+nodemon script - npm run server
+
+---#add db config and connect to mondoDB
+add mongo key
+seperate config file
+connect to mongoDB using mongoose / MongoClient
+
+---#Create seperate route files
+for users ,posts, profiles
+check with a test route
+
+---#User model and authentication
+register route
+    . check if user exists
+    . add default avatar, hash the password and then add user to db
+login route
+    . check if user exists
+    . compare password using brcypt
+    . generate a token (jwt) if success (bearer token)
+passport authenticattion
+    . local validation or google oauth or jwt (we used this)
+    . sign jwt payload to get a bearer token
+    . authenticate and get user info using this token
+    . -_-(flow is not much clear)
+
+
