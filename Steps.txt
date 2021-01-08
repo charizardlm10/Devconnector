@@ -38,4 +38,5 @@ passport authenticattion
     . authenticate and get user info using this token
     . -_-(flow is not much clear)
 
-
+---#Server side validation
+    . Normal validations for login and register
